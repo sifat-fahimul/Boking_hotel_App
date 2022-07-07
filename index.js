@@ -50,5 +50,6 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
   connect();
-  console.log("connected to server." + PORT);
+
+  console.log("connected to server.!" + PORT);
 });
